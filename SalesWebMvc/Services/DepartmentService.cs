@@ -20,5 +20,10 @@ namespace SalesWebMvc.Services
         {
             return _context.Department.OrderBy(x => x.Name).ToList();
         }
+
+        internal object FindById(int value)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
